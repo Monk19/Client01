@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lan="en">
     <head>
-        <title>leyout Design</title>
+        <title>layout For Chp</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=0.1">
-        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+        <!-- Google Fonts -->
+        <script src="https://kit.fontawesome.com/bf51e6ec9e.js" crossorigin="anonymous"></script>
         <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
         <script src="./assets/scripts/script.js" defer></script>
     </head>
     <body>
         <div class="Parent">
 
-            <div class="child1 flex-container1" style="position: absolute;">
+            <div class="child1 flex-container1">
                 <div class="nav-div">
                     <section class="nav-section">
                         <nav class="stroke">
                             <ul>
                                 <li><a href="#">About me</a></li>
-                                <li><a href="#">Qualification</a></li>
-                                <li><a href="">Skills</a></li>
+                                <li><a href="#education-skill">Qualification</a></li>
+                                <li><a href="#education-skill">Skills</a></li>
                                 <li><a href="">Projects</a></li>
-                                <li><a href="">Get in touch</a></li>
+                                <li><a href="#Contact-Me">Get in touch</a></li>
                             </ul>
                         </nav>
             
@@ -29,21 +34,70 @@
                 </div>
 
                 <div class="c1-item2"> 
-                    <div class="c12-item1" style="border:3px solid black;">
-
-                        <h3 class="chid1-h"></h3>
+                    <div class="c12-item1">
+                        <h3 class="Dynamic-type"></h3>
                     </div>
-                    <div class="c12-item2" style="border:3px solid black;">
-                        <h3>Flex box inside child 1</h5>
+                    <div class="c12-item2">
+                        
+                        
                     </div>
                 </div>
+                
             </div>
 
-            <div class="child2" id="jump-child2">
-                <h2>Second Child of Flex-Container</h2>
+            <div class="child2" id="education-skill">
+                <div class="child2-item1">
+                    <h2 style="text-align:center;font-family:'Homemade Apple', cursive;">Education</h2>
+                    <p><i class="fas fa-certificate"></i>National Institute of Technology Meghalaya &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2020</p>
+                    <p><i class="fas fa-certificate"></i>Sasi Residential High School(Board of Intermediate Education)    &nbsp; &nbsp;2012</p>
+                    <p><i class="fas fa-certificate"></i>Sasi Residential High School(Board of Secondary Education) &nbsp; &nbsp;2014</p>
+                    <h3>skills</h3>
+                    <ul class="pjn" id="education-skill">
+                        <li class="python">Python</li>
+                        <li class="javascript">Javascript</li>
+                        <li class="NodeJs">NodeJs</li>
+                        <li class="Html&CSS">HTML</li>
+                        <li class="Html&CSS">Mysql</li>
+                        <li class="Html&CSS">Css</li>
+                        <li class="Html&CSS">React</li>
+                        
+                    </ul>
+
+                </div>
+                <div class="child2-item2">
+                    <h3>Project</h3>
+                    <p><i class="fas fa-project-diagram"></i>landing page for a vegetablae vending site</p>
+                    <p><i class="fas fa-project-diagram"></i>Portifolio site for write brothers to sell their aeroplans</p>
+                    <p><i class="fas fa-project-diagram"></i>Tickets selling service for Elon Musks Mars is fun</p>
+                    <p><i class="fas fa-project-diagram"></i>wedding site for me and children</p>
+                    <p><i class="fas fa-project-diagram"></i>Milk Wending shop for everyone and me </p>
+                    <p><i class="fas fa-project-diagram"></i>I have to start living at the present moment</p>
+
+                </div>
+                            
             </div>
 
-            <div class="child3">3</div>
+            <div class="child3" id="Contact-Me">
+                <div class="c3-item1">
+                
+                </div>
+                <div class="c3-item2">
+                    
+                    <section class="Contact-me">
+                        <hr style="width:20%;height:4px;color: rgb(199, 27, 27);">
+                        <ul>
+                            <li><a href="https://www.instagram.com/iam_ninja19/"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a class="mail-to" href="mailto:ravigadu.19@gmail.com" style="font-family:'Pattaya', sans-serif;;">Email me</a></li>
+                        </ul>
+                        <hr style="width:20%;height:4px;color: rgb(22, 15, 15);">
+                    </p>                 
+                    </section>
+                    <p class="creator" style="text-align: center;">created by ravi<sup>@</sup></p>
+                </div>
+            </div>
 
 
         </div>
